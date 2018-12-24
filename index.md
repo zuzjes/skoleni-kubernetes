@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Školení Docker
+title: Školení Kubernetes
 ---
 
 ## Aktualně vypsané termíny
@@ -8,14 +8,13 @@ title: Školení Docker
 {% include terminy.html %}
 
 
-Pokud máte zájem o skoleni u vas ve firme, <a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-large btn-primary">nezávazně jej poptejte</a> nebo mi napište email na <ondrej@ondrejsika.com>
+Pokud máte zájem o skoleni u vas ve firme, <a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-large btn-primary btn-outline-primary">nezávazně jej poptejte</a> nebo mi napište email na <ondrej@ondrejsika.com>
 
 <hr class="line">
 
-## Co je Docker
+## Co je Kubernetes
 
-Docker je kontejnerizační engine, který zajišťuje běh aplikací ve striktně definovaném a odděleném prostředí. Výhody používání Dockeru jsou plná kontrola nad prostředím každé aplikace (jedna může bězět na Debianu a druhá na Cent OS na jednom hostu) a také bezpečnost, protozě apliace vidí jen kontainer a to co jim povolíte (porty, filesystem, ... na hostu).
-
+Kubernetes je dnes nejpoužívanější orchestrator kontejneru. Pokud chcete vsadit na jistotu pri provozovani Docker kontejneru, zvolte Kubernetes.
 <hr class="line">
 
 ## O mně
@@ -31,17 +30,16 @@ na produkci a nedovedu si již bez něj práci představit.
 
 Ve dvoudenním kurzu si projdeme tyto věci:
 
-- Co je Docker, jeho vlastnosti, výhody a nevýhody
-- Jak Docker nainstalovat a základní pojmy
-- Docker registry a spouštění kontajneru
-- Stavení vlastních obrazů
-- Ukážu jak spravovat multikontajnerove aplikace v Docker Compose
-- Docker Machine - nástroj na management Docker hostů
-- Docker Swarm - cluster pro Docker aplikace
-- Deployment aplikaci do Swarmu
-- Nastavit Docker pro produkční používání
-- Monitoring a správu kontejnerů
-- Základy využití v CI (Continues Itegration)
+- Zopakování prace s kontejnery (absolvovani Docker kurzu vyhodou)
+- Metodika 12 factor apps (https://12factor.net)
+- Architektura kubernetes
+- Instalace lokalniho clusteru
+- Ovladani clusteru
+- Nasazovani aplikace do clusteru
+- Prace s Persistent Storage
+- Prace s Ingress a LoadBalancer (Traefik)
+- Skalovani
+- Helm – Kubernetes package manager
 
 <hr class="line">
 
@@ -58,7 +56,7 @@ Po absolvování školení obdržíte veřejně auditovatelný certifikát o ú�
 
 ## Cena
 
-Cena dvoudenního kurzu je __8000 CZK__ na osobu, v případě firemních školení je to __15000 CZK__ za školící den. Na rozsahu kurzu se předem domluvíme, většinou trvá 3 dny.
+Cena dvoudenního kurzu je __9000 CZK__ na osobu, v případě firemních školení je to __15000 CZK__ za školící den. Na rozsahu kurzu se předem domluvíme, většinou trvá 3 dny.
 
 __Studenti__, __univerzity__ a __neziskové organizace__ mají __50% slevu__.
 
@@ -68,7 +66,7 @@ Lze domluvit například skupinové slevy, ceny se za určitých okolností daj�
 
 ## Mám zájem o školení
 
-Pokud máte zájem o školení, neváhejte mě kontaktovat nebo <a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-primary">nezavazne poptat skoleni</a>.
+Pokud máte zájem o školení, neváhejte mě kontaktovat nebo <a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-primary btn-outline-primary">nezavazne poptat skoleni</a>.
 
 <hr class="line">
 
@@ -91,7 +89,7 @@ Nebo můžete sledovat [Facebook](https://facebook.com/skoleniio) a [Twitter](ht
 
 Občas na téma Dockeru přednáším, prednasky muzete najit na mem Blogu s tagem [#dockertalk](https://ondrej-sika.cz/blog/tag/dockertalk/)
 
-<center style="margin: 30px 0 40px"><a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-lg btn-primary">Nezavazne poptat skoleni Dockeru</a></center>
+<center style="margin: 30px 0 40px"><a href="https://ondrej-sika.cz/skoleni/docker/poptavka/" class="btn btn-lg btn-primary ">Nezavazne poptat skoleni Dockeru</a></center>
 
 
 <script type="text/javascript">
