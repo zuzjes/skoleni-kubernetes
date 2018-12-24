@@ -13,3 +13,4 @@ Static website for [skoleni-docker.cz](https://skoleni-docker.cz).
 - __./build.sh__ - build site to **_site** directory
 - __./deploy.sh__ - git push to all remotes
 
+# skoleni-kubernetes
